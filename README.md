@@ -69,3 +69,14 @@ git remote -v /*Will provide status of link*/
 git push -u origin main /*If this fails then check credential manager github..*/
 
 4. /*To remove wrong files from GIT due to .gitignore file not exercised, following steps inmportant*/
+# 1. Clear Git's tracking index (note the space and dot at the end)
+git rm -r --cached .
+
+# 2. Re-add everything using your new .gitignore rules
+git add .
+
+# 3. Save the clean-up step
+git commit -m "Commit 2"
+
+
+
