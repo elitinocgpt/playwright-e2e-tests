@@ -76,7 +76,8 @@ git rm -r --cached .
 git add .
 
 # 3. Save the clean-up step
-git commit -m "Commit 2"
+git commit -m "Commit <n>:***"
 
-
-
+5. # /*To verify the config*/
+    /*Check the username and email and change if necessary -- change as 'local' if necessary*/
+git config --list 
