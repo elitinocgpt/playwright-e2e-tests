@@ -67,6 +67,9 @@ git remote add origin <REMOTE_URL>  /*Link to remote URL*/
 git remote set-url origin https://github.com/elitinocgpt/playwright-e2e-tests.git /*Set remote URL, if above shows any error*/
 git remote -v /*Will provide status of link*/
 git push -u origin main /*If this fails then check credential manager github..*/
+git commit -m "Commit <n>:***"git 
+
+git push -f origin main /*this will forcibly push files to main branch on GIT*/
 
 4. /*To remove wrong files from GIT due to .gitignore file not exercised, following steps inmportant*/
 # 1. Clear Git's tracking index (note the space and dot at the end)
