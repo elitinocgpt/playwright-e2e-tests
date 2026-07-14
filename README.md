@@ -66,5 +66,6 @@ git branch -M main  /*Renamed Master to main*/
 git remote add origin <REMOTE_URL>  /*Link to remote URL*/
 git remote set-url origin https://github.com/elitinocgpt/playwright-e2e-tests.git /*Set remote URL, if above shows any error*/
 git remote -v /*Will provide status of link*/
-git push -u origin main
+git push -u origin main /*If this fails then check credential manager github..*/
 
+4. /*To remove wrong files from GIT due to .gitignore file not exercised, following steps inmportant*/
