@@ -44,14 +44,15 @@ Fix files: Run to automatically format all files in the directory.
 
 /*GITHUB*/
 
---git commands
+1. --git commands
 git init /*this will initialise got and create master branch*/
 git * . /*This will open enclosed folder with hidden files .git(hidden) folder is important file which shows git managed*/
 git status /*Will show all git managed files and folder*/
 git add .  /*Files to be added in git*/
-git commit -m "<commit-message>"
+git commit -m "<commit-message>" /*commit on master branch*/
 
-/*Git ignores the following files*/
+
+2. /*Git ignores the following files*/
 -/debug
 -logs/
 -.env   /*Important files with security details and should not be shared*/
@@ -59,4 +60,11 @@ git commit -m "<commit-message>"
 -tests-examples/
 -example.*
 -*.log
+
+3. /*Adding to online git cloud repository*/
+git branch -M main  /*Renamed Master to main*/
+git remote add origin <REMOTE_URL>  /*Link to remote URL*/
+git remote set-url origin https://github.com/elitinocgpt/playwright-e2e-tests.git /*Set remote URL, if above shows any error*/
+git remote -v /*Will provide status of link*/
+git push -u origin main
 
