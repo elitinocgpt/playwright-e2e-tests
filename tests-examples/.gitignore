@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/debug
+/logs
+allure-results/
+tests-examples/
+example.*
+*.log
+# Virtual environments
+.venv
+.env
+.env.example
+

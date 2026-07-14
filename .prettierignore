@@ -1,0 +1,6 @@
+##/*Ignore files: Create a .prettierignore file to tell Prettier which files not to format (like build folders or dependencies):*/
+
+text
+node_modules
+dist
+build

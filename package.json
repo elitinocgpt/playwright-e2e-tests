@@ -1,0 +1,21 @@
+{
+  "name": "playwright-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests with AI Capabilities incl MCP",
+  "keywords": [
+    "playwright",
+    "playwright-e2e-tests",
+    "playwright-mcp"
+  ],
+  "license": "ISC",
+  "author": "Cope Automation",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-playwright": "^3.10.2",
+    "prettier": "3.9.5"
+  }
+}
